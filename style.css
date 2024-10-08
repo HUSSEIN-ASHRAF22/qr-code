@@ -1,0 +1,57 @@
+/* ------------------ !Imports ----------------------- */
+@font-face {
+    font-family: "Outfit";
+    src: url(Outfit-Bold.ttf);
+}
+@font-face {
+    font-family: "Outfit";
+    src: url(Outfit-Regular.ttf);
+}
+/* ------------------ !Reset ----------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+/* ------------------ !Global ----------------------- */
+    :root{
+        --White: hsl(0, 0%, 100%);
+        --Slate-300: hsl(212, 45%, 89%);
+        --Slate-500: hsl(216, 15%, 48%);
+        --Slate-900: hsl(218, 44%, 22%);
+    }
+/* ------------------ !BODY Content----------------------- */
+body{
+    background-color: var(--Slate-300);
+    font-size: 15px;
+    font-family: "Outfit", serif;
+    text-align: center;
+    line-height: 1.4;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--White);
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 80%;
+}
+img{
+    border-radius:15px ;
+}
+h1{
+    color: var(--Slate-900);
+    font-size: 25px;
+    margin: 15px 0;
+}
+p{
+    color: var(--Slate-500);
+    font-size: 15px;
+}
+/* --------------------------the End------------------------------ */
